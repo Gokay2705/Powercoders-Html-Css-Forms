@@ -1,0 +1,164 @@
+/* it's for h3 */
+.the-red-one {
+  color: red;
+}
+
+.the-blue-one {
+  color: blue;
+}
+
+.bolded {
+  font-weight: bold;
+}
+
+h1 {
+  color: red;
+  font-size: 60px;
+  font-weight: normal;
+  text-decoration: underline;
+  text-transform: uppercase;
+  border: 3px solid pink;
+}
+
+div {
+  color: blue;
+}
+.branding {
+  color: red;
+}
+
+.blog-post-title {
+  color: limegreen;
+}
+
+.title {
+  color: red;
+}
+
+.title {
+  color: green;
+}
+
+.hover-example {
+  width: 100px;
+  height: 100px;
+  background-color: limegreen;
+  color: white;
+}
+.hover-example:hover {
+  background-color: crimson;
+  width: 150px;
+  height: 150px;
+}
+
+.first-child-example {
+  color: crimson;
+}
+.first-child-example:first-child {
+  color: limegreen;
+}
+
+.chapter p {
+  margin: 0;
+}
+.chapter::after {
+  content: "❦";
+  font-size: 50px;
+  text-align: center;
+  display: block;
+}
+
+.ex-box {
+  border: 3px solid #aaa;
+  background-color: #eee;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+.ex-box:last-of-type {
+  clear: right;
+}
+
+.box-1 {
+  border: 1px solid black;
+  color: white;
+  background-color: blue;
+  height: 150px;
+  width: 300px;
+}
+.box-2 {
+  border: 1px solid black;
+  color: white;
+  background-color: red;
+  height: 100px;
+  width: 300px;
+}
+.box-3 {
+  border: 1px solid black;
+  color: white;
+  background-color: green;
+  height: 200px;
+  width: 100px;
+}
+
+.floated div {
+  float: left;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.jc-right {
+  justify-content: flex-end;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.ai-fe {
+  align-items: flex-end;
+}
+
+.ai-stretch {
+  align-items: stretch;
+  height: 200px;
+}
+
+/* remove the height from the three boxes */
+.no-height {
+  height: inherit;
+}
+
+.ai-grow {
+  width: 0;
+  /* nothing necessary here */
+}
+
+.ai-grow .box-1 {
+  flex-grow: 1;
+  width: 0;
+}
+.ai-grow .box-2 {
+  flex-grow: 5;
+  width: 0;
+}
+.ai-grow .box-3 {
+  flex-grow: 10;
+  width: 0;
+}
