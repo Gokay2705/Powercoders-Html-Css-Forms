@@ -35,7 +35,3 @@ Suggested approach:
 * Now add the other rows of 4 elements.
 * Finally, add the rows where there are fewer than 4 elements. What do you need to adjust to get these to work?
 * Once your layout is mostly working, add the colors and make it pretty.
-
-
-
-
