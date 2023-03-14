@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Document</title>
+  </head>
+  <body>
+    <style>
+      .red-square {
+        width: 100px;
+        height: 100px;
+        background-color: crimson;
+      }
+
+      .color-box {
+        background-color: limegreen;
+        width: 100px;
+        height: 100px;
+      }
+    </style>
+
+    <div class="red-square"></div>
+    <br />
+    <hr />
+    <ul>
+      <li class="js-target">Unchanged</li>
+      <li class="js-target">Unchanged</li>
+      <li>Won't Change</li>
+      <li class="js-target">Unchanged</li>
+      <li>Won't Change</li>
+      <li class="js-target">Unchanged</li>
+    </ul>
+    <br />
+    <hr />
+    <button class="event-button">Click me!</button>
+    <br />
+    <hr />
+    <input placeholder="type into me!" class="input-to-copy" />
+    <p class="p-to-copy-to">Nothing has happened yet.</p>
+
+    <div class="color-box"></div>
+    <input class="color-input" placeholder="Type a color here!" />
+    <br />
+    <hr />
+
+    <div class="button-container">
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>4</button>
+      <button>5</button>
+    </div>
+    <br />
+    <hr />
+    <script>
+      const redSquare = document.querySelector(".red-square");
+      redSquare.style.backgroundColor = "limegreen";
+      redSquare.style.border = "5px solid peru";
+
+      const elementsToChange = document.querySelectorAll(".js-target");
+      for (let i = 0; i < elementsToChange.length; i++) {
+        const currentElement = elementsToChange[i];
+        currentElement.innerText = "Modified by JavaScript!";
+      }
+      const button = document.querySelector(".event-button");
+      button.addEventListener("click", function () {
+        alert("Hey there! You click me!!!");
+      });
+
+      const input = document.querySelector(".input-to-copy");
+      const paragraph = document.querySelector(".p-to-copy-to");
+
+      input.addEventListener("keyup", function () {
+        paragraph.innerText = input.value;
+      });
+
+      const input1 = document.querySelector(".color-input");
+      const paragraph1 = document.querySelector(".color-box");
+
+      input1.addEventListener("change", function () {
+        paragraph1.style.backgroundColor = input1.value;
+      });
+
+      document
+        .querySelector(".button-container")
+        .addEventListener("click", function (event) {
+          if (event.target.tagName === "BUTTON") {
+            alert(`You clicked on button ${event.target.innerText}`);
+          }
+        });
+    </script>
+  </body>
+</html>
