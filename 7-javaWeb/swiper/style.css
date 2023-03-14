@@ -1,0 +1,37 @@
+.swiper-slide {
+  text-align: center;
+}
+
+img {
+  height: 580px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  /* background-color: yellow; */
+  
+}
+
+.main-nav {
+  /* background-color: greenyellow; */
+  color: white;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+
+}
+
+.brand {
+  margin: 0;
+  align-items: center;
+  font-size: 50px;
+  z-index: 10;
+  cursor: grab;
+  /* leave the existing stuff in .brand, add this to it */
+  background-color: white;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  border: 1px solid #666;
+}

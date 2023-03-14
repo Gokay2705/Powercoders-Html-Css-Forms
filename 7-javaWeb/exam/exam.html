@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./exam.css" />
+  </head>
+  <body>
+    <center>
+      <img
+        src="https://frontendmasters.github.io/bootcamp/mole-game/mole-hungry.png"
+        style="background-color: brown; border-radius: 50%"
+        class="mole spin"
+      />
+      <img
+        src="https://frontendmasters.github.io/bootcamp/mole-game/king-mole-hungry.png"
+        style="background-color: brown; border-radius: 50%"
+        class="mole color"
+      />
+    </center>
+    <h1 class="spin">Merhaba</h1>
+  </body>
+  <button id="get-doggo">Get Doggo</button>
+  <img style="height: 250px" id="doggo" src="http://placecorgi.com/250" />
+  <script>
+    async function getDoggo(event) {
+      const res = await fetch("https://dog.ceo/api/breeds/image/random");
+      const resJson = await res.json();
+      document.getElementById("doggo").src = resJson.message;
+    }
+
+    document.getElementById("get-doggo").addEventListener("click", getDoggo);
+  </script>
+</html>
