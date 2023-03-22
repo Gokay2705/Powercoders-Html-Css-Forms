@@ -1,0 +1,17 @@
+# Prints the numbers from 1-100 except:
+  first we have to determine our variable (i)
+  then we can write a function with that variable
+  it will count until 100 for each time and it will logout a value of variable each time
+  when the number reach 100 it will break the functions.
+  
+# For multiples of five, print “Power”
+  when the value reach multiples of 5 we have to write if function like i%sayi==0; sayi=5;
+  then we will print it out
+
+# For multiples of seven, print “Coders”
+  we will do the same thing but this time sayi1=7;
+  then we we will print it out
+
+# For multiples of five and seven, print “PowerCoders”
+  we will do the same thing but this time sayi2=35;
+  then we we will print it out

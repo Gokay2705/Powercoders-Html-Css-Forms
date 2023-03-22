@@ -1,0 +1,108 @@
+ERROR REPORT - HTML & CSS
+=========================
+
+Below you will write your debugging report by answering the following questions about the 9 errors you found.
+
+-----------------------------------------------------------------------
+HTML ERRORS - You will find the following errors in index.html
+ERROR 1
+=======
+
+1. What line did you find the error?
+
+
+
+2.What was the error and how did you fix it?
+
+
+
+ERROR 2
+=======
+
+1. What line did you find the error?
+
+
+
+2.What was the error and how did you fix it?
+
+
+
+ERROR 3
+=======
+
+1. What line did you find the error?
+
+
+
+2.What was the error and how did you fix it? 
+
+
+
+ERROR 4
+=======
+
+1. What line did you find the error?
+
+
+
+2. What was the error and how did you fix it?
+
+
+
+ERROR 5
+=======
+
+1. What line did you find the error?
+
+
+
+2. What was the error and how did you fix it?
+
+
+
+________________________________________________________________________
+
+CSS ERRORS - You will find the following errors in style.css
+
+ERROR 6
+=======
+
+1. What line did you find the error?
+
+
+
+2.What was the error and how did you fix it?
+
+
+
+ERROR 7
+=======
+
+1. What line did you find the error?
+
+
+
+2.What was the error and how did you fix it?
+
+
+
+ERROR 8
+=======
+
+1. What line did you find the error?
+
+
+
+2.What was the error and how did you fix it?
+
+
+
+ERROR 9
+=======
+
+1. What line did you find the error?
+
+
+
+2.What was the error and how did you fix it?
+

@@ -1,0 +1,113 @@
+ERROR REPORT - HTML & CSS
+=========================
+
+Below you will write your debugging report by answering the following questions about the 9 errors you found.
+
+-----------------------------------------------------------------------
+HTML ERRORS - You will find the following errors in index.html
+ERROR 1
+=======
+
+1. What line did you find the error?
+
+Line 11
+
+2.What was the error and how did you fix it?
+
+<image source should be <img src
+
+ERROR 2
+=======
+
+1. What line did you find the error?
+
+Line 13
+
+2.What was the error and how did you fix it?
+
+There is no h2 closing tag. I added </h2> to get this working.
+
+
+ERROR 3
+=======
+
+1. What line did you find the error?
+
+Line 17 and 22
+
+
+2.What was the error and how did you fix it?
+
+<ol> and </ol> creates an ordered list it should be <ul> and </ul> to get a bullet point list.
+
+
+ERROR 4
+=======
+
+1. What line did you find the error?
+
+Line 27
+
+2.What was the error and how did you fix it?
+
+<list> and </list> should be <li> and </li>
+
+
+ERROR 5
+=======
+
+1. What line did you find the error?
+
+Line 30
+
+2.What was the error and how did you fix it?
+
+"YOUR TICKETS!" is missing the <li> </li> tags
+
+________________________________________________________________________
+
+CSS ERRORS - You will find the following errors in style.css
+
+ERROR 6
+=======
+
+1. What line did you find the error?
+
+Line 2 in CSS
+
+2.What was the error and how did you fix it?
+
+Shouldn't be red it should be #BF33FF
+
+ERROR 7
+=======
+
+1. What line did you find the error?
+
+Line 7 in CSS
+
+2.What was the error and how did you fix it?
+
+250 does not have px which stops the image size working. So I changed this to 250px
+
+ERROR 8
+=======
+
+1. What line did you find the error?
+
+Line 12 in CSS
+
+2.What was the error and how did you fix it?
+
+fontweight error is incorrect. It should be font-weight
+
+ERROR 9
+=======
+
+1. What line did you find the error?
+
+Line 17 in CSS
+
+2.What was the error and how did you fix it?
+
+colour is the wrong spelling it should be colour
