@@ -88,8 +88,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: black;
-    color: green;
+    background-color: #DA0090;
+    color: white;
     text-decoration: none;
 }
 
