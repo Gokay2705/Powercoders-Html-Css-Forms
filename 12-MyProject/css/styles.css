@@ -64,8 +64,8 @@ header {
 }
 
 nav {
-    border-top: 1px solid #DA0090;
-    border-bottom: 1px solid #DA0090;
+    border-top: 1px solid #0057da;
+    border-bottom: 1px solid #0028da;
 }
 
 nav ul {
@@ -88,7 +88,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #DA0090;
+    background-color: #001dda;
     color: white;
     text-decoration: none;
 }
@@ -110,14 +110,14 @@ article::after {
 }
 
 section {
-    border-bottom: solid #DA0090; /* footer bolumunden once gelen section bolumunun altina cizgi cektik*/
+    border-bottom: solid #0099da; /* footer bolumunden once gelen section bolumunun altina cizgi cektik*/
     margin-bottom: 0.3rem; /* section ve foother arasina bosluk biraktik*/
 }
 
 footer {
     text-align: center;
     font-size: 0.8rem;
-    border-top: solid #DA0090; /* footer bolumunun ustune cizgi cektik*/
+    border-top: solid #0f00da; /* footer bolumunun ustune cizgi cektik*/
 }
 
 /* footer bolumundeki likleri yan yana getirmek icin */
