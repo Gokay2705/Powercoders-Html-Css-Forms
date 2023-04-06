@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+}
+
+fieldset {
+  border: 5px solid black;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+legend {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  display: block;
+  font-family: "Shadows Into Light", cursive;
+}
+
+label {
+  display: inline-block;
+  padding: 0.3rem;
+}
+
+textarea {
+  height: 10rem;
+  padding: 1rem;
+}
+
+button:hover {
+  color: #7079d8;
+  background-color: white;
+}
