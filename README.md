@@ -2,6 +2,7 @@
 git clone https://github.com/Gokay2705/Powercoders-Html-Css-Forms.git
 ## Repo Content
 - [x] [HTML-CSS-Forms](/01.02-html/).
+** Bu sayfada ** gorebilirsiniz.
 - [x] [Layouts](/3-layout/)
     - [Blocks](/3-layout/blog-begin/)
     - [Box](/3-layout/boxmodel/)
