@@ -4,4 +4,5 @@ git clone https://github.com/Gokay2705/Powercoders-Html-Css-Forms.git
 - [x] HTML-CSS-Forms
 - [x] Layouts
 - [x] Forms
-[Linkedin](https://www.linkedin.com/in/m-goekce-a-13a3151b2/)
+
+You can folow me [Linkedin](https://www.linkedin.com/in/m-goekce-a-13a3151b2/).
