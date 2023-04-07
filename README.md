@@ -1,13 +1,14 @@
 # POWERCODERS
 git clone https://github.com/Gokay2705/Powercoders-Html-Css-Forms.git
 ## Repo Content
-- [x] [HTML-CSS-Forms](/01.02-html/).
-**HTML-CSS-Forms** you can find some example of these subjects.
-- [x] [Layouts](/3-layout/)
+- [ ] [HTML-CSS-Forms](/01.02-html/).
+
+    **HTML-CSS-Forms** you can find some example of these subjects.
+- [ ] [Layouts](/3-layout/)
     - [Blocks](/3-layout/blog-begin/)
     - [Box](/3-layout/boxmodel/)
-- [x] [Forms](/4-forms/)
-- [x] [Java Script](/6.7-Jvscp/)
+- [ ] [Forms](/4-forms/)
+- [ ] [Java Script](/6.7-Jvscp/)
     - [Jscp](/6.7-Jvscp/6-javaspc/)
     - [Web Aplication](/6.7-Jvscp/7-javaWeb/)
 
