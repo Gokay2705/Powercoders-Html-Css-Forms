@@ -1,5 +1,5 @@
 # POWERCODERS
-git clone https://github.com/Gokay2705/Powercoders-Html-Css-Forms.git
+git clone: https://github.com/Gokay2705/Powercoders-Html-Css-Forms.git
 ## Repo Content
 - [ ] [HTML-CSS-Forms](/01.02-html/).
 
