@@ -1,7 +1,9 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -10,7 +12,7 @@ html {
   width: 11%;
   text-align: left;
   flex-wrap: wrap;
-  list-style:none;
+  list-style: none;
 }
 
 .nav a {
@@ -27,7 +29,6 @@ html {
   color: black;
   font-style: italic;
 }
-
 
 .main {
   float: left;
@@ -80,8 +81,3 @@ h2 {
   color: red;
   text-align: center;
 }
-
-
-
-
-
